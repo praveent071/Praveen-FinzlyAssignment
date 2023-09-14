@@ -1,0 +1,7 @@
+<p>primenumber works!</p>
+
+<input type="number" id="prime" #num>
+<br><br>
+<button (click)="checkPrime(num.value)">click-prime</button>
+
+<p> {{result ? 'prime' : 'not a prime'}} </p>

@@ -1,0 +1,9 @@
+<p>loginpage works!</p>
+
+
+<h2>Login Page</h2>
+<label for="username">Username:</label><br>
+<input type="text" name="username" placeholder="enter name" #username><br>
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password" placeholder="enter password" #password><br>
+<button (click)="onclick(username.value,password.value)">Login</button><br> {{output}}
